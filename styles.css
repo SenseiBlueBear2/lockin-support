@@ -95,6 +95,11 @@ details[open] summary { color: var(--orange); }
 .footer strong { color: var(--ink); font-size: 16px; font-weight: 750; letter-spacing: -.5px; }
 .footer > a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; }
 .copyright { white-space: nowrap; }
+.legal-page { max-width: 760px; padding-block: 56px; }
+.legal-page > p, .legal-page section p { color: var(--muted); font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.legal-page section { margin-top: 32px; }
+.legal-page h2 { font-size: 23px; line-height: 1.3; letter-spacing: -.5px; }
+.legal-page a { color: var(--orange); text-decoration: underline; text-underline-offset: 3px; }
 
 @media (hover: hover) {
   .button:hover { background: #9a3412; }
