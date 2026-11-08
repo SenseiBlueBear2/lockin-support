@@ -52,7 +52,7 @@ The workflow publishes to the repository’s Pages root, not a `/support-site/` 
 ## Content and maintenance
 
 - The contact address is `lockin.customersupport@gmail.com`, matching `app/settings.tsx`.
-- Email buttons open the visitor’s email app; the bug report link supplies a draft template. No information is submitted through this page.
+- Email buttons open a pre-addressed Gmail compose page; the bug report link also supplies a draft template. No information is submitted through this page.
 - FAQs use native HTML disclosure controls and work without JavaScript.
 - `privacy.html` is the public copy of `privacySections` in `data/appContent.ts`. Keep the web and in-app policy text synchronized when it changes. Use the privacy URL above for App Store Connect’s Privacy Policy URL field.
 - Keep the FAQs and response-time estimate aligned with the app when they change.
